@@ -45,8 +45,12 @@ body[class='whanau-page'] {
   background-color: #FCE4EC;
 }
 
-body[class='about-page'] {
-  background-color: #EFEBE9;
+body[class='home-page'] {
+  background-color: #E8F5E9;
+}
+
+body[class='connections-page'] {
+  background-color: #F3E5F5;
 }
 
 /* Navigation */
