@@ -63,9 +63,10 @@ nav {
 nav ul {
   list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 nav li a {
