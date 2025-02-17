@@ -1,77 +1,116 @@
-/* Banner image*/
-.header {
-  width: 100%;
-  background-size: cover;
-  }
 
-.header img {
-  width: 100%;
-}
-
-/* global styling*/
-html{
-  font-family: "Montserrat";
-  margin: 0rem 2rem;
-}
-
-/* Styling for the image container and the items inside it */
-.container{
-  display: flex; 
-  flex-wrap: wrap; 
-}
-
-/*Items for all the screenshots and pictures of your stuff*/
-.item{
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  width: 30%;
-  min-width: 8rem;
-  margin: auto;
-}
- .item-info{
-   padding: 0.1rem;
-   text-align: center;
- }
-
-.item img{
-  width: 100%;
-}
-
-/*the navbar styling goes here*/
-nav ul{
-  list-style-type: none;
+/* Reset default styles */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Navigation */
+nav {
+  background-color: #2B5329;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav li a:hover {
+  background-color: #C73E26;
+}
+
+nav #active a {
+  background-color: #8B4513;
+}
+
+/* Main content */
+h1 {
+  color: #2B5329;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.item {
+  background: white;
+  border-radius: 8px;
   overflow: hidden;
-  background-color: grey;
-  top: 0;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.item img {
   width: 100%;
-}
-
-nav ul li{
-  float: left;
-  font-size: 1rem;
-}
-
-nav li a{
+  height: auto;
   display: block;
+}
+
+.item-info {
+  padding: 1rem;
+}
+
+h3 {
+  color: #2B5329;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  color: #8B4513;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+
+/* Footer */
+footer {
+  background-color: #2B5329;
   color: white;
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
-nav li:hover{
-  background-color: orangered;
+footer a {
+  color: white;
 }
 
-nav #active{
-  background-color: darkgreen;
-}
-
-h1 {
-color: darkblue;
-font-family: "brush script mt" cursive;
-font-size: 40px;
-font-weight: bold;
-text-align: center;
+/* Responsive design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    padding: 1rem;
+  }
 }
