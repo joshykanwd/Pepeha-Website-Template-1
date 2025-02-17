@@ -67,6 +67,11 @@ nav ul {
   gap: 2rem;
   max-width: 600px;
   margin: 0 auto;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
 }
 
 nav li a {
@@ -75,6 +80,7 @@ nav li a {
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.3s;
+  display: block;
 }
 
 nav li a:hover {
