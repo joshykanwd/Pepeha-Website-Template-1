@@ -12,6 +12,43 @@ body {
   background-color: #f4f4f4;
 }
 
+/* Page-specific background colors */
+body[class='pepeha-page'] {
+  background-color: #E8F5E9;
+}
+
+body[class='maunga-page'] {
+  background-color: #F3E5F5;
+}
+
+body[class='awa-page'] {
+  background-color: #E3F2FD;
+}
+
+body[class='waka-page'] {
+  background-color: #FFF3E0;
+}
+
+body[class='iwi-page'] {
+  background-color: #FFEBEE;
+}
+
+body[class='hapu-page'] {
+  background-color: #E0F2F1;
+}
+
+body[class='marae-page'] {
+  background-color: #F1F8E9;
+}
+
+body[class='whanau-page'] {
+  background-color: #FCE4EC;
+}
+
+body[class='about-page'] {
+  background-color: #EFEBE9;
+}
+
 /* Navigation */
 nav {
   background-color: #2B5329;
